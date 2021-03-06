@@ -1,0 +1,22 @@
+@media (min-width: 768px){
+
+/*Grafico*/
+.poke_grafico{
+    width: 60%;
+    position: relative;
+    left: 13rem;
+    bottom: 11rem;
+  }
+  .titulo-grafico{
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px){
+  .titulo-grafico{
+    display: none;
+  }
+  .poke_grafico{
+    display: none;
+  }
+}

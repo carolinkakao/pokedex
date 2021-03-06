@@ -1,0 +1,32 @@
+// Vendor
+@import 'vendors/bootstrap/bootstrap.scss';
+
+// Abstract
+@import 'abstracts/functions';
+
+@import 'abstracts/placeholders';
+@import 'abstracts/variables';
+
+// Base
+@import 'base/base';
+@import 'base/animation';
+@import 'base/reset';
+@import 'base/typography';
+
+
+// Layout
+@import 'layout/layout';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/seccion-buscador';
+@import 'layout/seccion-grafico';
+@import 'layout/seccion-infoPokemon';
+@import 'layout/footer';
+
+// Components
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/input';
+@import 'components/pokebola';
+@import 'components/tabla';
+

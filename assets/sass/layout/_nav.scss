@@ -1,0 +1,44 @@
+
+@media (min-width: 768px){
+
+.pkdx-nav {
+	margin-bottom: 6rem;
+	height: 64px;
+	background-color: #d14444;
+}
+
+.pkdx-nav:after {
+	border-top: 60px solid #d14444;
+	border-right: 40px solid transparent;
+	height: 0%;
+	width: 50%;
+	position: absolute;
+	content: "";
+	margin-top: 50px;
+	margin-left: -20px;
+}
+
+.circulos {
+	height: 72px;
+	position: absolute;
+	z-index: 9999;
+    margin-top: -12px;
+    top:1rem;
+}
+}
+@media (max-width: 767.98px){
+	.circulos{
+		width: 8rem;
+	}
+	.pkdx-nav {
+		margin-bottom: 6rem;
+		height: 64px;
+		background-color: #d14444;
+	}
+.navbar-toggler{
+	position: relative;
+	left: 0.6rem;
+	background-color: #fff;
+	margin-right: 2rem;
+}
+}

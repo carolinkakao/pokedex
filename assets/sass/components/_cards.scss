@@ -1,0 +1,49 @@
+@media (min-width: 768px){
+/*detalles tarjeta*/
+.pokemon-id{
+    text-align: center;
+  }
+  .poke-nombre{
+    text-align: center;
+  }
+  .titulo-imagen{
+    text-align: center;
+  }
+  .titulo-tipo{
+    text-align: center;
+  }
+  .poke-tarjeta{
+      width: 20rem;
+      height: 20rem;
+  }
+
+  /*imagenes*/
+
+.imagen-posterior,imagen-frontal{
+  position:relative;
+  left: 3rem;
+}
+}
+@media (max-width: 767.98px){
+  .poke-tarjeta{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    right: 17rem;
+}
+.pokemon-id{
+  text-align: center;
+}
+.poke-nombre{
+  text-align: center;
+}
+.titulo-imagen{
+  text-align: center;
+}
+.titulo-tipo{
+  text-align: center;
+}
+
+
+
+}

@@ -1,0 +1,59 @@
+/*Tabla*/
+@media (min-width: 768px){
+.table__head{
+    color: #FFF;
+    font-weight: 700;
+    background: #9b4085;
+    background: -moz-linear-gradient(-45deg, #df2a39 0%, #421ee0 100%);
+    background: -webkit-linear-gradient(-45deg, #df2a39 0%,#421ee0 100%);
+    background: linear-gradient(135deg, #df2a39 0%,#421ee0 100%);
+    white-space: nowrap;
+    }
+    .table-bordered td, .table-bordered th{
+    border: 0px solid #FFF;
+    }
+    
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    
+   .tabla-pokemon{
+     position: relative;
+     bottom: 6.5rem;
+   
+   }
+
+  
+
+  }
+  @media (max-width: 767.98px){
+    .table__head{
+      color: #FFF;
+      font-weight: 700;
+      background: #9b4085;
+      background: -moz-linear-gradient(-45deg, #df2a39 0%, #421ee0 100%);
+      background: -webkit-linear-gradient(-45deg, #df2a39 0%,#421ee0 100%);
+      background: linear-gradient(135deg, #df2a39 0%,#421ee0 100%);
+      white-space: nowrap;
+      }
+      .table-bordered td, .table-bordered th{
+      border: 0px solid #FFF;
+      }
+      
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+      
+     .tabla-pokemon{
+       position: relative;
+       top:6rem;
+       right: 16rem;
+       padding: 5rem;
+       
+     }
+     .table-responsive{
+       height: 12rem;
+     }
+
+
+  }

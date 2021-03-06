@@ -1,0 +1,36 @@
+@media (min-width: 768px){
+
+/*footer*/
+.footer{
+    background-color:#ff0000;
+  }
+ .imagen1-footer{
+   width: 4rem;
+ }
+ .imagenes-footer{
+   position: relative;
+   left: 36rem;
+ }
+  .logo-nintendo-footer{
+   width: 8rem;
+   position:relative;
+   left:30rem;
+  }
+}
+
+@media (max-width: 767.98px){
+  .footer{
+    background-color:#ff0000;
+    width: 100%;
+  }
+  .imagen1-footer{
+    display: none;
+  }
+  .logo-nintendo-footer{
+    width: 8rem;
+    position:relative;
+    left:7rem;
+   }
+
+
+}

@@ -1,0 +1,30 @@
+@media (min-width: 768px){
+.botonBuscador{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4007db;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    position:relative;
+    top:1rem;
+   
+}
+
+  .botonBuscador:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+}
+@media (max-width: 767.98px){
+  .botonBuscador{
+    position:relative;
+    top:5rem;
+    right: 8rem;
+    
+    width: 8rem;
+  }
+
+}
