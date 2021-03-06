@@ -10731,7 +10731,7 @@ textarea.form-control-lg {
     width: 60%;
     position: relative;
     left: 13rem;
-    bottom: 11rem;
+    bottom: 3rem;
   }
 
   .titulo-grafico {
@@ -10747,12 +10747,19 @@ textarea.form-control-lg {
     display: none;
   }
 }
-.seccion-informacion {
-  position: relative;
-  left: 10rem;
-  margin: 8rem;
+@media (min-width: 768px) {
+  .seccion-informacion {
+    position: relative;
+    left: 10rem;
+  }
 }
-
+@media (max-width: 767.98px) {
+  .seccion-informacion {
+    position: relative;
+    left: 10rem;
+    margin: 8rem;
+  }
+}
 @media (min-width: 768px) {
   /*footer*/
   .footer {
