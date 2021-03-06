@@ -110,9 +110,6 @@ let pokeGrafico = new Chart(ctx, {
 })
 //----------- Funciòn que ejecuta la busqueda aleatoria de un pokemon 1 a 1000 ----------_//
 //----------- Funciòn que ejecuta la busqueda aleatoria de un pokemon 1 a 1000 ----------_//
-//----------- Funciòn que ejecuta la busqueda aleatoria de un pokemon 1 a 1000 ----------_//
-//----------- Funciòn que ejecuta la busqueda aleatoria de un pokemon 1 a 1000 ----------_//
-
 $(`#pokeRandom`).click(function() {  
   let pokeRandom = Math.floor((Math.random() * 1000) + 1);
   let url = "https://pokeapi.co/api/v2/pokemon/" + pokeRandom;
